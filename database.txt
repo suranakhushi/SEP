@@ -1,0 +1,8 @@
+create database sep_tables;
+use sep_tables;
+#user login and table info
+create table user_login(user_id char(4),username varchar(20) primary key, passwd char(8) not null );
+create table user_info(user_id char(4),foreign key (user_id) references user_login(user_id),user_name char(32),agr int, gender char(1),email_id varchar(20), phno char(10));
+#admin login and info
+create table admin_login(user_id char(4),username varchar(20) primary key, passwd char(8) not null);
+create table admin_info(admin_id char(4),foreign key (admin_id) references admin_login(admin_id),admin_name char(32),agr int, gender char(1),email_id varchar(20), phno char(10));

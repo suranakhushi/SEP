@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <script src="project.js"></script>
+  </head>
+  <body>
+    <div class="desktop-1">
+      <input
+        class="input"
+        placeholder="Number of questions"
+        type="number"
+        min="1"
+        max="100"
+        step="1"
+      />
+
+      <input
+        class="input1"
+        placeholder="Time Limit in mins"
+        type="number"
+        min="1"
+        max="100"
+        step="1"
+      />
+
+      <input
+        class="input2"
+        placeholder="Number of options"
+        type="number"
+        min="1"
+        max="100"
+        step="1"
+      />
+
+      <input
+        class="input3"
+        placeholder="Date and Time of exam"
+        type="datetime-local"
+        maxlength="300"
+        minlength="1"
+      />
+
+      <input
+        class="input4"
+        placeholder="Marks for each question"
+        type="number"
+        min="1"
+        max="100"
+        step="0.1"
+      />
+
+      <select class="dropdownlist" required="{true}">
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+        <option value="French">French</option>
+      </select>
+      <div class="radio">
+        <div class="proctoring-wrapper">
+          <div class="proctoring">proctoring:</div>
+        </div>
+        <input class="radio1" type="radio" name="proctoring" proctoring />
+
+        <div class="yes-wrapper">
+          <div class="proctoring">on</div>
+        </div>
+        <input class="radio1" type="radio" name="proctoring" />
+
+        <div class="no-wrapper">
+          <div class="proctoring">off</div>
+        </div>
+      </div>
+      <div class="radio3">
+        <div class="proctoring-wrapper">
+          <div class="proctoring">
+            <p class="negative">negative</p>
+            <p class="negative">marks:</p>
+          </div>
+        </div>
+        <input class="radio1" type="radio" name="negativemarks" />
+
+        <div class="no-wrapper">
+          <div class="proctoring">yes</div>
+        </div>
+        <input class="radio1" type="radio" name="negativemarks" />
+
+        <div class="yes-wrapper">
+          <div class="proctoring">no</div>
+        </div>
+      </div>
+      <input
+        class="input5"
+        placeholder="Negative marks per question"
+        type="number"
+        min="1"
+        max="100"
+        step="0.1"
+      />
+
+      <button class="button">
+        <div class="save-settings">save settings</div>
+      </button>
+      <div class="container">
+        <div class="proctoring">Admin Settings</div>
+        <div class="setting-line-light">
+          <div class="subtract-wrapper">
+            <img class="subtract-icon" alt="" src="./public/subtract.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

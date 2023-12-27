@@ -1,0 +1,129 @@
+.frame-icon1,
+.frame-inner {
+  position: absolute;
+  overflow: hidden;
+}
+.frame-inner {
+  top: 96px;
+  left: 0;
+  width: 1440px;
+  height: 926px;
+  display: none;
+}
+.frame-icon1 {
+  top: 12px;
+  left: 14px;
+  width: 68px;
+  height: 73px;
+}
+.delete-an-exam1 {
+  position: absolute;
+  top: calc(50% - 24px);
+  left: calc(50% - 148px);
+  font-weight: 500;
+}
+.frame-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslateblue);
+  width: 1440px;
+  height: 108px;
+  mix-blend-mode: normal;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.are-you-sure {
+  top: 287px;
+  left: calc(50% - 325px);
+}
+.are-you-sure,
+.group-item,
+.no {
+  position: absolute;
+}
+.group-item {
+  top: 0;
+  right: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 234px;
+  height: 68px;
+}
+.no {
+  top: 16px;
+  left: 96px;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.group-inner,
+.rectangle-group {
+  position: absolute;
+  width: 234px;
+  height: 68px;
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 228px;
+  right: 238px;
+}
+.group-inner {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.yes {
+  position: absolute;
+  top: 16px;
+  left: 97px;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangle-container {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 228px;
+  left: 270px;
+  width: 234px;
+  height: 68px;
+}
+.group-parent {
+  position: absolute;
+  top: 200px;
+  left: 125px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1177px;
+  height: 591px;
+  overflow: hidden;
+}
+.delete-exam {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

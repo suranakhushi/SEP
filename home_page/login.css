@@ -1,0 +1,341 @@
+.login2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.login2,
+.span {
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-lalezar);
+}
+.dont-have-an-container {
+  position: absolute;
+  top: 78px;
+  left: 0;
+}
+.here {
+  color: var(--color-black);
+}
+.sign-up-here-container {
+  text-decoration: none;
+  position: absolute;
+  top: 102px;
+  left: 268px;
+  cursor: pointer;
+  color: var(--color-mediumblue);
+}
+.frame17,
+.frame18 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.frame18 {
+  position: relative;
+  height: 156px;
+  flex-shrink: 0;
+}
+.frame17 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.username1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.enter-your-user1 {
+  border: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  position: absolute;
+  top: 48.44%;
+  left: 6.29%;
+  color: var(--color-midnightblue);
+  text-align: left;
+}
+.instance-inner {
+  position: absolute;
+  height: 3.13%;
+  width: 100%;
+  top: 96.88%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-darkgray);
+}
+.message-1-icon2 {
+  position: absolute;
+  height: 26.56%;
+  width: 3.96%;
+  top: 54.69%;
+  right: 92.07%;
+  bottom: 18.75%;
+  left: 3.96%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.username-group {
+  align-self: stretch;
+  position: relative;
+  height: 64px;
+}
+.user-1-icon1 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-top: -31px;
+}
+.instance-group {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 429px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.login3 {
+  position: relative;
+  font-size: var(--font-size-mid);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.frame20,
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.login-wrapper {
+  align-self: stretch;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-darkslateblue-100);
+  box-shadow: 0 4px 26px rgba(0, 0, 0, 0.25);
+  height: 53px;
+  justify-content: flex-end;
+  padding: var(--padding-smi) 170px;
+  box-sizing: border-box;
+}
+.frame20 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 257px;
+  left: 0;
+  width: 430px;
+  overflow: hidden;
+  justify-content: center;
+}
+.frame-child4,
+.password1 {
+  position: absolute;
+  left: 1px;
+}
+.password1 {
+  top: 0;
+  font-weight: 500;
+}
+.frame-child4 {
+  top: 62px;
+  background-color: var(--color-darkgray);
+  width: 429px;
+  height: 2px;
+}
+.padlock-1-icon2 {
+  position: relative;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.enter-your-password1 {
+  border: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  position: relative;
+  color: var(--color-midnightblue);
+  text-align: left;
+}
+.padlock-1-container {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 190px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.group-icon,
+.invisible-1 {
+  position: absolute;
+  overflow: hidden;
+}
+.group-icon {
+  height: 86.43%;
+  width: 100%;
+  top: 7.14%;
+  right: 0;
+  bottom: 6.43%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.invisible-1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 39px;
+  left: 416px;
+  width: 14px;
+  height: 14px;
+}
+.password-group {
+  position: absolute;
+  top: 105px;
+  left: 0;
+  width: 430px;
+  height: 64px;
+}
+.frame16,
+.frame19 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.frame19 {
+  position: relative;
+  height: 310px;
+  flex-shrink: 0;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkgray);
+  font-family: var(--font-poppins);
+}
+.frame16 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 210px;
+}
+.frame15,
+.saly-10-icon1 {
+  position: absolute;
+  overflow: hidden;
+}
+.frame15 {
+  top: 82px;
+  left: 61px;
+  width: 549px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 43px 36px;
+  box-sizing: border-box;
+}
+.saly-10-icon1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-child5,
+.saly-101 {
+  position: absolute;
+  top: calc(50% - 309.95px);
+  left: calc(50% - 286.5px);
+  width: 545.1px;
+  height: 619.9px;
+}
+.frame-child5 {
+  top: calc(50% - 259.95px);
+  left: calc(50% + 181.2px);
+  width: 104.6px;
+  height: 119px;
+  overflow: hidden;
+}
+.saly-10-group {
+  align-self: stretch;
+  position: relative;
+  height: 619.9px;
+}
+.frame-inner1 {
+  position: absolute;
+  top: calc(50% - 511px);
+  left: calc(50% - 384.5px);
+  border-radius: var(--br-mini);
+  background-color: var(--color-darkslateblue-100);
+  width: 769px;
+  height: 1022px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 76.14437103271484px 68.00689697265625px;
+  box-sizing: border-box;
+}
+.svgjsg1017-icon1 {
+  position: absolute;
+  height: 7.05%;
+  width: 8.84%;
+  top: 2.35%;
+  right: 1.69%;
+  bottom: 90.61%;
+  left: 89.47%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame22 {
+  align-self: stretch;
+  position: relative;
+  height: 1022px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame21,
+.login1 {
+  height: 1024px;
+  overflow: hidden;
+}
+.frame21 {
+  position: absolute;
+  top: 0;
+  left: 671px;
+  width: 769px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.login1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <div class="desktop-1-child"></div>
+      <div class="test-analysis-wrapper">
+        <div class="test-analysis">Test Analysis</div>
+      </div>
+      <input
+        class="desktop-1-item"
+        id="testIdInput" 
+        placeholder="Enter Test ID"
+        type="text"
+      />
+
+      <button class="desktop-1-inner" id="enterButton">
+        <div class="enter-wrapper">
+          <div class="enter">Enter</div>
+        </div>
+      </button>
+    </div>
+
+    <div id="scoreTable"></div> <!-- Scores will be displayed here -->
+
+    <script>
+      const enterButton = document.getElementById("enterButton");
+      const testIdInput = document.getElementById("testIdInput");
+      const scoreTable = document.getElementById("scoreTable");
+
+      enterButton.addEventListener("click", function () {
+        const testId = testIdInput.value;
+
+        // Send an AJAX request to the server with the test ID
+        // Handle the response and display scores in the scoreTable
+        // You'll need to write this JavaScript code
+      });
+    </script>
+  </body>
+</html>
